@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
   name: "SwiftPhoenixClient", 
   dependencies: [
-    .package(url: "https://github.com/daltoniam/Starscream.git", from: "3.0.6"),
+    .package(url: "https://github.com/daltoniam/Starscream.git", .branch("master")),
   ],
   targets: [
     .target(
